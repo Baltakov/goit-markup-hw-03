@@ -49,6 +49,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 /* ====== HEADER ======= */
 .page-header-container {
   display: flex;
@@ -69,6 +73,7 @@ body {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .logotype-blue {
   align-items: center;
@@ -132,6 +137,7 @@ body {
 /* ====== SECTION1 ======= */
 .hero {
   background-color: var(--primary-color);
+  margin-bottom: 60px;
 }
 .topic {
   font-size: 56px;
@@ -167,6 +173,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.values-list {
+  display: flex;
+}
 /* ====== SECTION3 ======= */
 .top-doing {
   font-size: 36px;
@@ -176,13 +185,21 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--primary-color);
+  margin-bottom: 72px;
+}
+.doing-list {
+  display: flex;
 }
 /* ====== SECTION4 ======= */
 .team {
   background-color: #f4f4fd;
+  padding-top: 50px;
+}
+.team-cell {
+  background-color: #ffffff;
 }
 .team-list {
-  background-color: #ffffff;
+  display: flex;
 }
 .team-names {
   font-size: 20px;
@@ -206,6 +223,10 @@ body {
   letter-spacing: 0.02em;
 }
 /* ====== PORTFOLIO ======= */
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .portfolio-button {
   color: var(--secondary-color);
   background-color: var(--color-txt-button);
@@ -220,7 +241,7 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
-.portfolio-list {
+.portfolio-cell {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -232,4 +253,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-portfolio);
+}
+.portfolio-buttons {
+  margin-bottom: 72px;
+  display: flex;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
 }
