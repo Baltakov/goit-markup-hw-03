@@ -136,6 +136,7 @@ body {
 }
 /* ====== SECTION1 ======= */
 .hero {
+  height: 600px;
   background-color: var(--primary-color);
   margin-bottom: 60px;
 }
@@ -175,6 +176,7 @@ body {
 }
 .values-list {
   display: flex;
+  column-gap: 24px;
 }
 /* ====== SECTION3 ======= */
 .top-doing {
@@ -189,17 +191,20 @@ body {
 }
 .doing-list {
   display: flex;
+  column-gap: 24px;
 }
 /* ====== SECTION4 ======= */
 .team {
   background-color: #f4f4fd;
   padding-top: 50px;
+  padding-bottom: 120px;
 }
 .team-cell {
   background-color: #ffffff;
 }
 .team-list {
   display: flex;
+  column-gap: 24px;
 }
 .team-names {
   font-size: 20px;
@@ -261,4 +266,8 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 48px 24px;
+}
+.example-cell {
+  /* flex-basis: 360px; */
 }
