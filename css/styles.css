@@ -67,11 +67,24 @@ body {
   display: flex;
   /* column-gap: 40px; */
 }
-.menu-item {
+.menu-link {
+  /* Body Medium */
   margin-right: 40px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--primary-color);
 }
-.menu-item-last {
-  margin-right: 40px;
+.menu-link-last {
+  margin-right: 0px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--primary-color);
 }
 .contact-list {
   display: flex;
@@ -117,15 +130,6 @@ body {
   color: #f4f4fd;
 }
 
-.menu-link {
-  /* Body Medium */
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  color: var(--primary-color);
-}
 .contact {
   font-style: normal;
 }
