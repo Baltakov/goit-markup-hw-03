@@ -36,7 +36,7 @@ img {
 button,
 portfolio-button {
   cursor: pointer;
-  /* display: block; */
+  display: block;
 }
 body {
   font-family: var(--secondary-font);
@@ -162,6 +162,9 @@ body {
   margin-bottom: 60px;
 }
 .topic {
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 56px;
   font-weight: 500;
   line-height: 1.07;
@@ -176,7 +179,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 56px;
-  width: 169px;
+  /* width: 169px; */
+  min-width: 169px;
   font-family: var(--secondary-font);
   font-size: 16px;
   font-weight: 500;
