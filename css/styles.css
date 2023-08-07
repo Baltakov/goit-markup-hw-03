@@ -65,11 +65,17 @@ body {
 }
 .menu {
   display: flex;
-  column-gap: 40px;
+  /* column-gap: 40px; */
+}
+.menu-item {
+  margin-right: 40px;
+}
+.menu-item-last {
+  margin-right: 40px;
 }
 .contact-list {
   display: flex;
-  column-gap: 40px;
+  /* column-gap: 40px; */
 }
 .page-header {
   padding-top: 24px;
@@ -124,6 +130,15 @@ body {
   font-style: normal;
 }
 .contact-link {
+  margin-right: 40px;
+  font-size: 16px;
+  /* font-style: normal; */
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--color-portfolio);
+}
+.contact-link-last {
+  margin-right: 0px;
   font-size: 16px;
   /* font-style: normal; */
   line-height: 1.5;
