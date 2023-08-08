@@ -128,6 +128,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .contact {
@@ -285,6 +286,10 @@ body {
 /* ====== FOOTER ======= */
 .page-footer {
   background-color: var(--primary-color);
+}
+.foot-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .description-footer {
   color: #f4f4fd;
