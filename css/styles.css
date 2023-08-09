@@ -302,6 +302,7 @@ footer .logotype-blue {
 .portfolio-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .portfolio-cell {
   font-size: 20px;
@@ -333,12 +334,10 @@ footer .logotype-blue {
   /* border: 1px solid #e7e9fc; */
 }
 .cell {
-  padding-left: 16px;
+  padding: 32px 16px;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .visually-hidden {
   position: absolute;
