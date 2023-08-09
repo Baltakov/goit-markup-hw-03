@@ -61,7 +61,7 @@ body {
 }
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .menu-link {
   /* Body Medium */
@@ -71,7 +71,7 @@ body {
   line-height: 1.5;
   color: var(--primary-color);
 }
-.menu-link-last {
+.menu-link {
   margin-right: 0px;
   font-size: 16px;
   font-style: normal;
@@ -82,7 +82,7 @@ body {
 }
 .contact-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -96,6 +96,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-color);
+  margin-right: 76px;
 }
 .logotype-dark {
   color: var(--primary-color);
